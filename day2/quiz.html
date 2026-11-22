@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz</title>
+</head>
+<body>
+	<header>
+		<h1>Quiz</h1>
+		<img src="images/html5.png" alt="board html">
+	</header>
+	<main>
+		<article class="private-info">
+			<h2>ข้อมูลส่วนตัว</h2>
+			<form action="">
+			<label for="first-name">ชื่อจริง</label>
+			<input type="text" name="first-name" placeholder="ใส่ชื่อจริง" id="first-name">
+			<br>
+			<label for="last-name">นามสกุล</label>
+			 <input type="text" name="last-name" placeholder="ใส่นามสกุล" id="last-name">
+			<br>
+			<label for="age">อายุ</label>
+			 <input type="number" name="age" placeholder="ใส่อายุ" id="age">
+			<br>
+			<label for="email">อีเมลล์</label>
+			 <input type="email" name="email" placeholder="ใส่อีเมลล์" id="email">
+			<br>
+			<label for="phone-num">เบอร์โทร</label>
+			<input type="tel" name="tel" id="phone-num" placeholder="ใส่เบอร์โทร">
+			<br>
+			<label for="country">ประเทศ</label>
+			<select name="country" id="country">
+				<option value="">โปรดเลือกประเทศ</option>
+				<option value="Thai">ไทย</option>
+				<option value="England">อังกฤษ</option>
+			</select>
+			<br>
+			<input type="submit">
+			<hr>
+			</form>
+		</article>
+		<article class="questions">
+			<h2>ข้อคำถาม</h2>
+			<form action="">
+			<p>1. element อะไรบ้างโครงสร้างหลักชอง HTML ที่จำเป็นต้องมี ?</p>
+			<input type="checkbox" id="q1-a" name="first-question" value="a">
+			<label for="q1-a">a</label> <br>
+			<input type="checkbox" id="q1-b" name="first-question" value="b">
+			<label for="q1-b">b</label> <br>
+			<input type="checkbox" id="q1-c" name="first-question" value="c">
+			<label for="q1-c">c</label> <br>
+			<input type="checkbox" id="q1-d" name="first-question" value="d">
+			<label for="q1-d">d</label> <br>
+			<p>2. จะใส่ link ไปยัง website อื่น ต้องใช้ tag อะไร ?</p>
+			<input type="radio" id="q2-a" name="second-question" value="a">
+			<label for="q2-a">a</label> <br>
+			<input type="radio" id="q2-b" name="second-question" value="b">
+			<label for="q2-b">b</label> <br>
+			<input type="radio" id="q2-c" name="second-question" value="c">
+			<label for="q2-c">c</label> <br>
+			<input type="radio" id="q2-d" name="second-question" value="d">
+			<label for="q2-d">d</label> <br>
+			<br>
+			<input type="submit">
+			</form>
+		</article>
+	</main>
+</body>
+</html>
